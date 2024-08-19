@@ -95,7 +95,7 @@ def get_scatter_chart(select_site, payload_slide):
         fig = px.scatter(filtered_df, x = 'Payload Mass (kg)', 
         y = 'class',
         color = 'Booster Version Category',
-        title='Coorelation Between Payload Mass and Success for all sites'
+        title='Correlation Between Payload Mass and Success for all sites'
         )
         return fig
     else:
